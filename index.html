@@ -10,6 +10,46 @@
     </head>
     <body>
 
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-orange">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">CatSting</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Anecdote</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Races</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
+
+          <div class="container">
+            <div class="breeds-select">
+                <select name="select-by" id="select-by">
+                    <option value="">Par...</option>
+                </select>
+
+                <ul id="breeds-list">
+
+                </ul>
+            </div>
+            <div class="breeds-details">
+
+            </div>
+          </div>
+
         <script src="script.js"></script>
     </body>
 </html>
